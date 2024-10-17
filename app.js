@@ -3,7 +3,7 @@ const app = express();
 
 
 app.get("/", function(req,res){
-    res.send("<h1>Bem vindo!</h1>");
+    res.send("<h1>hello world!</h1>");
 })
 
 app.get("/games", function(req,res){
